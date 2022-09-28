@@ -2058,7 +2058,13 @@ var render = function render() {
     style: "background-color: " + _vm.post.category.color
   }, [_c("h5", {
     staticClass: "m-0"
-  }, [_vm._v(" " + _vm._s(_vm.post.category.name) + " ")])])])]);
+  }, [_vm._v(" " + _vm._s(_vm.post.category.name) + " ")])]), _vm._v(" "), _c("div", {
+    staticClass: "m-3"
+  }, _vm._l(_vm.post.tags, function (tag) {
+    return _c("span", {
+      key: tag.id
+    }, [_vm._v("\n                #" + _vm._s(tag.name) + "\n            ")]);
+  }), 0)])]);
 };
 
 var staticRenderFns = [];
