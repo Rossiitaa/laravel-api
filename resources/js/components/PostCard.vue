@@ -1,6 +1,6 @@
 <template>
     <div class="card col-5 m-5">
-        <img :src="isValidUrl(post.image) ? post.image : 'storage/' + post.image " class="card-img-top mt-3" alt="image-post">
+        <img :src="isValidUrl(post.image) ? post.image : 'storage/' + post.image" class="card-img-top mt-3" alt="image-post">
         
         <div class="card-body">
             <h5 class="card-title m-3 font-weight-bold">
