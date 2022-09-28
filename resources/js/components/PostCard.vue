@@ -12,6 +12,9 @@
             <p class="card-text m-3">
                 {{ post.content }}
             </p>
+            <div class=" badge badge-fill m-3" :style=" 'background-color: ' + post.category.color ">
+                <h5 class="m-0"> {{ post.category.name }} </h5>
+            </div>
         </div>
 
     </div>

@@ -2053,7 +2053,12 @@ var render = function render() {
     staticClass: "card-subtitle m-3"
   }, [_vm._v("\n            Written by " + _vm._s(_vm.post.user.name) + " | " + _vm._s(_vm.post.date) + "\n        ")]), _vm._v(" "), _c("p", {
     staticClass: "card-text m-3"
-  }, [_vm._v("\n            " + _vm._s(_vm.post.content) + "\n        ")])])]);
+  }, [_vm._v("\n            " + _vm._s(_vm.post.content) + "\n        ")]), _vm._v(" "), _c("div", {
+    staticClass: "badge badge-fill m-3",
+    style: "background-color: " + _vm.post.category.color
+  }, [_c("h5", {
+    staticClass: "m-0"
+  }, [_vm._v(" " + _vm._s(_vm.post.category.name) + " ")])])])]);
 };
 
 var staticRenderFns = [];
