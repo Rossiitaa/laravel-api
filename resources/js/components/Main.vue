@@ -1,8 +1,8 @@
 <template>
     <main class="container">
         <div class="row p-3">
-                <h1>Posts:</h1>
-                <PostCard v-for="post in posts" :key="post.id" :post="post"/>
+            <h1>Posts:</h1>
+            <PostCard v-for="post in posts" :key="post.id" :post="post"/>
         </div>
         
     </main>

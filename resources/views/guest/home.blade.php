@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Laravel Boolpress | @yield('title')</title>
+    <title>Laravel Boolpress</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/front.js') }}" defer></script>
